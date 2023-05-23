@@ -1,0 +1,60 @@
+body{
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    background-image: url(Screenshot\ from\ 2023-05-17\ 15-27-01_cleanup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .grid {
+    margin-top: 10px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    
+  }
+
+  .grid div {
+    height: 20px;
+    width: 20px;
+  }
+
+  .tetromino {
+    background-color: blue;
+  }
+
+
+  .mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+  }
+
+  .mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
+
+  button{
+    background-color: rgb(7, 7, 7);
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: 600;
+    border: 0px;
+    color: aliceblue;
+  }
+  button:focus{
+    outline: none;
+  }
+  button:hover{
+    background-color: rgb(54, 52, 52);
+  }
